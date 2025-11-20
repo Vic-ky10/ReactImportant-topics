@@ -14,7 +14,7 @@ function UseMemo() {
     <div>
 
       <h2>USE MEMO PRACTICE</h2>
-      <button onClick={() => setCount(count + 1)} style={style}>
+      <button onClick={() => setCount(count + 1)} style={ style}>
         Add to Count{" "}
       </button>
       <button onClick={() => setArr([...arr, count + 2])} style={style}>
@@ -22,8 +22,8 @@ function UseMemo() {
         add to array
       </button>
 
-      <p>{count} </p>
-      <p>{memoVal}</p>
+      <p>"counting"{count} </p>
+      <p>"useMemo"{memoVal}</p>
       <p>{arr}</p>
     </div>
   );
