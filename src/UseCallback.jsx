@@ -8,7 +8,7 @@ function UseCallback() {
   
     const addCart = useCallback(() => {
         setCart(cart +1 )
-    },[cart]) 
+    },[cart ]) 
 
   return (
     <div>
@@ -18,7 +18,7 @@ function UseCallback() {
         })}
 
         <button onClick={()=> setCount(count + 1)}>click me</button>
-       <h3> count :{count}</h3>
+       <h3> counts :{count}</h3>
        <h3>Cart for callBack:{cart}</h3>
       
     </div>
