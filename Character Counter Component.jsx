@@ -46,7 +46,7 @@ function CharacterCounter() {
       </p>
 
       {isLimitReached && (
-        <p style={{ color: "red", fontSize: "14px" }}>Limit reached!</p>
+        <h3 style={{ color: "yellow ", fontSize: "14px" }}>Limit reached!</h3>
       )}
     </div>
        </>   
