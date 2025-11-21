@@ -14,7 +14,9 @@ function CharacterCounter() {
   return (
 
     <>
-   <h2 style={{textAlign :"center" , marginBottom :"50px"}}> CHARACTER COUNTER COMPONENT</h2>
+   <h2 style={{textAlign :"center" , marginBottom :"50px"}}>
+    <u>Type SomeThing</u>
+   </h2>
     <div
 
     
@@ -30,7 +32,7 @@ function CharacterCounter() {
       <textarea
         value={text}
         onChange={handleChange}
-        rows={4}
+        rows={5}
         style={{ width: "100%", padding: "8px", fontSize: "16px" }}
         placeholder="Type something..."
       />
