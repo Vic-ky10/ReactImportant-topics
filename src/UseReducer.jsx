@@ -44,11 +44,11 @@ function UseReducer() {
           Decrement
         </button>
         <button
-          className={"btn btn-secondary m-3"}
+            className={"btn btn-secondary m-3"}
           onClick={() => dispatch({ type: "RESET" })}
         >
           Reset
-        </button>
+        </button>            
         </div>
       </div>
 
